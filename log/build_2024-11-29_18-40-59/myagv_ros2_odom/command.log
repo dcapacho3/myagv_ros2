@@ -1,0 +1,1 @@
+Invoking command in '/home/sara/myagv_ros2/build/myagv_ros2_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/home/sara/myagv_ros2/install/myagv_ros2_debug:/opt/ros/humble /usr/bin/cmake --build /home/sara/myagv_ros2/build/myagv_ros2_odom -- -j4 -l4

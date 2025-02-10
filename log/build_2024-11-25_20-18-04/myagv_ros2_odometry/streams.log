@@ -1,0 +1,26 @@
+[4.453s] Invoking command in '/home/sara/myagv_ros2/src/myagv_ros2_odometry': PYTHONPATH=/home/sara/myagv_ros2/build/myagv_ros2_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sara/myagv_ros2/install/myagv_ros2_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_ros2_odometry build --build-base /home/sara/myagv_ros2/build/myagv_ros2_odometry/build install --record /home/sara/myagv_ros2/build/myagv_ros2_odometry/install.log --single-version-externally-managed install_data
+[5.707s] running egg_info
+[5.710s] writing ../../build/myagv_ros2_odometry/myagv_ros2_odometry.egg-info/PKG-INFO
+[5.712s] writing dependency_links to ../../build/myagv_ros2_odometry/myagv_ros2_odometry.egg-info/dependency_links.txt
+[5.713s] writing entry points to ../../build/myagv_ros2_odometry/myagv_ros2_odometry.egg-info/entry_points.txt
+[5.714s] writing requirements to ../../build/myagv_ros2_odometry/myagv_ros2_odometry.egg-info/requires.txt
+[5.715s] writing top-level names to ../../build/myagv_ros2_odometry/myagv_ros2_odometry.egg-info/top_level.txt
+[5.723s] reading manifest file '../../build/myagv_ros2_odometry/myagv_ros2_odometry.egg-info/SOURCES.txt'
+[5.725s] adding license file 'LICENSE'
+[5.728s] writing manifest file '../../build/myagv_ros2_odometry/myagv_ros2_odometry.egg-info/SOURCES.txt'
+[5.729s] running build
+[5.730s] running build_py
+[5.730s] copying myagv_ros2_odometry/myagvencoderpublish.py -> /home/sara/myagv_ros2/build/myagv_ros2_odometry/build/lib/myagv_ros2_odometry
+[5.731s] running install
+[5.733s] running install_lib
+[5.738s] copying /home/sara/myagv_ros2/build/myagv_ros2_odometry/build/lib/myagv_ros2_odometry/myagvencoderpublish.py -> /home/sara/myagv_ros2/install/myagv_ros2_odometry/lib/python3.10/site-packages/myagv_ros2_odometry
+[5.742s] byte-compiling /home/sara/myagv_ros2/install/myagv_ros2_odometry/lib/python3.10/site-packages/myagv_ros2_odometry/myagvencoderpublish.py to myagvencoderpublish.cpython-310.pyc
+[5.747s] running install_data
+[5.748s] running install_egg_info
+[5.757s] removing '/home/sara/myagv_ros2/install/myagv_ros2_odometry/lib/python3.10/site-packages/myagv_ros2_odometry-0.0.0-py3.10.egg-info' (and everything under it)
+[5.759s] Copying ../../build/myagv_ros2_odometry/myagv_ros2_odometry.egg-info to /home/sara/myagv_ros2/install/myagv_ros2_odometry/lib/python3.10/site-packages/myagv_ros2_odometry-0.0.0-py3.10.egg-info
+[5.766s] running install_scripts
+[5.875s] Installing myagv_encoder script to /home/sara/myagv_ros2/install/myagv_ros2_odometry/lib/myagv_ros2_odometry
+[5.877s] Installing myagv_odom script to /home/sara/myagv_ros2/install/myagv_ros2_odometry/lib/myagv_ros2_odometry
+[5.880s] writing list of installed files to '/home/sara/myagv_ros2/build/myagv_ros2_odometry/install.log'
+[6.055s] Invoked command in '/home/sara/myagv_ros2/src/myagv_ros2_odometry' returned '0': PYTHONPATH=/home/sara/myagv_ros2/build/myagv_ros2_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sara/myagv_ros2/install/myagv_ros2_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_ros2_odometry build --build-base /home/sara/myagv_ros2/build/myagv_ros2_odometry/build install --record /home/sara/myagv_ros2/build/myagv_ros2_odometry/install.log --single-version-externally-managed install_data

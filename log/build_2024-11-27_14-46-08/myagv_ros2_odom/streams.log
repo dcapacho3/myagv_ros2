@@ -1,0 +1,25 @@
+[1.433s] Invoking command in '/home/sara/myagv_ros2/build/myagv_ros2_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/home/sara/myagv_ros2/install/myagv_ros2_debug:/opt/ros/humble /usr/bin/cmake --build /home/sara/myagv_ros2/build/myagv_ros2_odom -- -j4 -l4
+[2.783s] [100%] Built target myagv_odom
+[2.822s] Invoked command in '/home/sara/myagv_ros2/build/myagv_ros2_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/home/sara/myagv_ros2/install/myagv_ros2_debug:/opt/ros/humble /usr/bin/cmake --build /home/sara/myagv_ros2/build/myagv_ros2_odom -- -j4 -l4
+[3.086s] Invoking command in '/home/sara/myagv_ros2/build/myagv_ros2_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/home/sara/myagv_ros2/install/myagv_ros2_debug:/opt/ros/humble /usr/bin/cmake --install /home/sara/myagv_ros2/build/myagv_ros2_odom
+[3.138s] -- Install configuration: ""
+[3.140s] -- Up-to-date: /home/sara/myagv_ros2/install/myagv_ros2_odom/lib/myagv_ros2_odom/myagv_odom
+[3.141s] -- Up-to-date: /home/sara/myagv_ros2/install/myagv_ros2_odom/include/
+[3.144s] -- Up-to-date: /home/sara/myagv_ros2/install/myagv_ros2_odom/include//myagv_ros2_odom
+[3.145s] -- Up-to-date: /home/sara/myagv_ros2/install/myagv_ros2_odom/include//myagv_ros2_odom/myagv_odom.hpp
+[3.146s] -- Up-to-date: /home/sara/myagv_ros2/install/myagv_ros2_odom/share/ament_index/resource_index/package_run_dependencies/myagv_ros2_odom
+[3.146s] -- Up-to-date: /home/sara/myagv_ros2/install/myagv_ros2_odom/share/ament_index/resource_index/parent_prefix_path/myagv_ros2_odom
+[3.147s] -- Up-to-date: /home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/environment/ament_prefix_path.sh
+[3.149s] -- Up-to-date: /home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/environment/ament_prefix_path.dsv
+[3.150s] -- Up-to-date: /home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/environment/path.sh
+[3.151s] -- Up-to-date: /home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/environment/path.dsv
+[3.153s] -- Up-to-date: /home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/local_setup.bash
+[3.153s] -- Up-to-date: /home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/local_setup.sh
+[3.154s] -- Up-to-date: /home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/local_setup.zsh
+[3.155s] -- Up-to-date: /home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/local_setup.dsv
+[3.157s] -- Installing: /home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/package.dsv
+[3.158s] -- Up-to-date: /home/sara/myagv_ros2/install/myagv_ros2_odom/share/ament_index/resource_index/packages/myagv_ros2_odom
+[3.163s] -- Up-to-date: /home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/cmake/myagv_ros2_odomConfig.cmake
+[3.164s] -- Up-to-date: /home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/cmake/myagv_ros2_odomConfig-version.cmake
+[3.177s] -- Up-to-date: /home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/package.xml
+[3.179s] Invoked command in '/home/sara/myagv_ros2/build/myagv_ros2_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/home/sara/myagv_ros2/install/myagv_ros2_debug:/opt/ros/humble /usr/bin/cmake --install /home/sara/myagv_ros2/build/myagv_ros2_odom

@@ -1,0 +1,417 @@
+[0.747s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.747s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff7ed22320>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7ee32920>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7ee32920>>, mixin_verb=('build',))
+[2.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.123s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sara/myagv_ros2'
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.212s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.212s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_debug) by extensions ['ignore', 'ignore_ament_install']
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_debug) by extension 'ignore'
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_debug) by extension 'ignore_ament_install'
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_debug) by extensions ['colcon_pkg']
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_debug) by extension 'colcon_pkg'
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_debug) by extensions ['colcon_meta']
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_debug) by extension 'colcon_meta'
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_debug) by extensions ['ros']
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_debug) by extension 'ros'
+[2.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myagv_ros2_debug' with type 'ros.ament_python' and name 'myagv_ros2_debug'
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_odom) by extensions ['ignore', 'ignore_ament_install']
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_odom) by extension 'ignore'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_odom) by extension 'ignore_ament_install'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_odom) by extensions ['colcon_pkg']
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_odom) by extension 'colcon_pkg'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_odom) by extensions ['colcon_meta']
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_odom) by extension 'colcon_meta'
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_odom) by extensions ['ros']
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_odom) by extension 'ros'
+[2.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myagv_ros2_odom' with type 'ros.ament_cmake' and name 'myagv_ros2_odom'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_odometry) by extensions ['ignore', 'ignore_ament_install']
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_odometry) by extension 'ignore'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_odometry) by extension 'ignore_ament_install'
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_odometry) by extensions ['colcon_pkg']
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_odometry) by extension 'colcon_pkg'
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_odometry) by extensions ['colcon_meta']
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_odometry) by extension 'colcon_meta'
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_odometry) by extensions ['ros']
+[2.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_odometry) by extension 'ros'
+[2.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myagv_ros2_odometry' with type 'ros.ament_python' and name 'myagv_ros2_odometry'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_urdf) by extensions ['ignore', 'ignore_ament_install']
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_urdf) by extension 'ignore'
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_urdf) by extension 'ignore_ament_install'
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_urdf) by extensions ['colcon_pkg']
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_urdf) by extension 'colcon_pkg'
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_urdf) by extensions ['colcon_meta']
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_urdf) by extension 'colcon_meta'
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_urdf) by extensions ['ros']
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_urdf) by extension 'ros'
+[2.251s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myagv_ros2_urdf' with type 'ros.ament_cmake' and name 'myagv_ros2_urdf'
+[2.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_ydlidar) by extensions ['ignore', 'ignore_ament_install']
+[2.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_ydlidar) by extension 'ignore'
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_ydlidar) by extension 'ignore_ament_install'
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_ydlidar) by extensions ['colcon_pkg']
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_ydlidar) by extension 'colcon_pkg'
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_ydlidar) by extensions ['colcon_meta']
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_ydlidar) by extension 'colcon_meta'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_ydlidar) by extensions ['ros']
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2_ydlidar) by extension 'ros'
+[2.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myagv_ros2_ydlidar' with type 'ros.ament_python' and name 'myagv_ros2_ydlidar'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ros']
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ros'
+[2.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[2.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.438s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/sara/myagv_ros2/install
+[2.448s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[2.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.633s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_debug' build argument 'cmake_args' from command line to 'None'
+[2.633s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_debug' build argument 'cmake_target' from command line to 'None'
+[2.633s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_debug' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.633s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_debug' build argument 'cmake_clean_cache' from command line to 'False'
+[2.633s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_debug' build argument 'cmake_clean_first' from command line to 'False'
+[2.633s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_debug' build argument 'cmake_force_configure' from command line to 'False'
+[2.633s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_debug' build argument 'ament_cmake_args' from command line to 'None'
+[2.633s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_debug' build argument 'catkin_cmake_args' from command line to 'None'
+[2.634s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_debug' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.634s] DEBUG:colcon.colcon_core.verb:Building package 'myagv_ros2_debug' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sara/myagv_ros2/build/myagv_ros2_debug', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sara/myagv_ros2/install/myagv_ros2_debug', 'merge_install': False, 'path': '/home/sara/myagv_ros2/src/myagv_ros2_debug', 'symlink_install': False, 'test_result_base': None}
+[2.635s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_odom' build argument 'cmake_args' from command line to 'None'
+[2.635s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_odom' build argument 'cmake_target' from command line to 'None'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_odom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_odom' build argument 'cmake_clean_cache' from command line to 'False'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_odom' build argument 'cmake_clean_first' from command line to 'False'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_odom' build argument 'cmake_force_configure' from command line to 'False'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_odom' build argument 'ament_cmake_args' from command line to 'None'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_odom' build argument 'catkin_cmake_args' from command line to 'None'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_odom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.636s] DEBUG:colcon.colcon_core.verb:Building package 'myagv_ros2_odom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sara/myagv_ros2/build/myagv_ros2_odom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sara/myagv_ros2/install/myagv_ros2_odom', 'merge_install': False, 'path': '/home/sara/myagv_ros2/src/myagv_ros2_odom', 'symlink_install': False, 'test_result_base': None}
+[2.638s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_odometry' build argument 'cmake_args' from command line to 'None'
+[2.638s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_odometry' build argument 'cmake_target' from command line to 'None'
+[2.638s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.638s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[2.638s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[2.638s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[2.638s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[2.638s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[2.639s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.639s] DEBUG:colcon.colcon_core.verb:Building package 'myagv_ros2_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sara/myagv_ros2/build/myagv_ros2_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sara/myagv_ros2/install/myagv_ros2_odometry', 'merge_install': False, 'path': '/home/sara/myagv_ros2/src/myagv_ros2_odometry', 'symlink_install': False, 'test_result_base': None}
+[2.640s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_urdf' build argument 'cmake_args' from command line to 'None'
+[2.640s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_urdf' build argument 'cmake_target' from command line to 'None'
+[2.640s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.640s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[2.641s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[2.641s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[2.641s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[2.641s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[2.641s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.641s] DEBUG:colcon.colcon_core.verb:Building package 'myagv_ros2_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sara/myagv_ros2/build/myagv_ros2_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sara/myagv_ros2/install/myagv_ros2_urdf', 'merge_install': False, 'path': '/home/sara/myagv_ros2/src/myagv_ros2_urdf', 'symlink_install': False, 'test_result_base': None}
+[2.642s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_ydlidar' build argument 'cmake_args' from command line to 'None'
+[2.643s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_ydlidar' build argument 'cmake_target' from command line to 'None'
+[2.643s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_ydlidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.643s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_ydlidar' build argument 'cmake_clean_cache' from command line to 'False'
+[2.643s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_ydlidar' build argument 'cmake_clean_first' from command line to 'False'
+[2.643s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_ydlidar' build argument 'cmake_force_configure' from command line to 'False'
+[2.643s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_ydlidar' build argument 'ament_cmake_args' from command line to 'None'
+[2.643s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_ydlidar' build argument 'catkin_cmake_args' from command line to 'None'
+[2.643s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2_ydlidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.643s] DEBUG:colcon.colcon_core.verb:Building package 'myagv_ros2_ydlidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sara/myagv_ros2/build/myagv_ros2_ydlidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sara/myagv_ros2/install/myagv_ros2_ydlidar', 'merge_install': False, 'path': '/home/sara/myagv_ros2/src/myagv_ros2_ydlidar', 'symlink_install': False, 'test_result_base': None}
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[2.646s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[2.646s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.646s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sara/myagv_ros2/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sara/myagv_ros2/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/sara/myagv_ros2/src/ydlidar_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[2.646s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.650s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.651s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sara/myagv_ros2/src/myagv_ros2_debug' with build type 'ament_python'
+[2.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_ros2_debug', 'ament_prefix_path')
+[2.671s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/myagv_ros2_debug/share/myagv_ros2_debug/hook/ament_prefix_path.ps1'
+[2.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/myagv_ros2/install/myagv_ros2_debug/share/myagv_ros2_debug/hook/ament_prefix_path.dsv'
+[2.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/myagv_ros2_debug/share/myagv_ros2_debug/hook/ament_prefix_path.sh'
+[2.686s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.686s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.708s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sara/myagv_ros2/src/myagv_ros2_odom' with build type 'ament_cmake'
+[2.709s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sara/myagv_ros2/src/myagv_ros2_odom'
+[2.711s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.712s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.734s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sara/myagv_ros2/src/myagv_ros2_odometry' with build type 'ament_python'
+[2.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_ros2_odometry', 'ament_prefix_path')
+[2.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/myagv_ros2_odometry/share/myagv_ros2_odometry/hook/ament_prefix_path.ps1'
+[2.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/myagv_ros2/install/myagv_ros2_odometry/share/myagv_ros2_odometry/hook/ament_prefix_path.dsv'
+[2.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/myagv_ros2_odometry/share/myagv_ros2_odometry/hook/ament_prefix_path.sh'
+[2.745s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.745s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.766s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sara/myagv_ros2/src/myagv_ros2_urdf' with build type 'ament_cmake'
+[2.766s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sara/myagv_ros2/src/myagv_ros2_urdf'
+[2.768s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.768s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.002s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sara/myagv_ros2/src/myagv_ros2_debug'
+[4.003s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.003s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/myagv_ros2/build/myagv_ros2_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake --build /home/sara/myagv_ros2/build/myagv_ros2_odom -- -j4 -l4
+[5.357s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sara/myagv_ros2/src/myagv_ros2_odometry'
+[5.358s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.358s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/myagv_ros2/build/myagv_ros2_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake --build /home/sara/myagv_ros2/build/myagv_ros2_urdf -- -j4 -l4
+[5.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/myagv_ros2/build/myagv_ros2_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake --build /home/sara/myagv_ros2/build/myagv_ros2_odom -- -j4 -l4
+[5.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/myagv_ros2/build/myagv_ros2_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake --build /home/sara/myagv_ros2/build/myagv_ros2_urdf -- -j4 -l4
+[5.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/myagv_ros2/build/myagv_ros2_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake --install /home/sara/myagv_ros2/build/myagv_ros2_odom
+[5.750s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_ros2_odom)
+[5.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/myagv_ros2/build/myagv_ros2_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake --install /home/sara/myagv_ros2/build/myagv_ros2_odom
+[5.794s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odom' for CMake module files
+[5.799s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odom' for CMake config files
+[5.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_ros2_odom', 'cmake_prefix_path')
+[5.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/hook/cmake_prefix_path.ps1'
+[5.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/hook/cmake_prefix_path.dsv'
+[5.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/hook/cmake_prefix_path.sh'
+[5.817s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odom/lib'
+[5.819s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odom/bin'
+[5.820s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odom/lib/pkgconfig/myagv_ros2_odom.pc'
+[5.822s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odom/lib/python3.10/site-packages'
+[5.823s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odom/bin'
+[5.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/package.ps1'
+[5.832s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/package.dsv'
+[5.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/package.sh'
+[5.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/package.bash'
+[5.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/package.zsh'
+[5.855s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/myagv_ros2/install/myagv_ros2_odom/share/colcon-core/packages/myagv_ros2_odom)
+[5.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/myagv_ros2/build/myagv_ros2_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake --install /home/sara/myagv_ros2/build/myagv_ros2_urdf
+[5.948s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_ros2_urdf)
+[5.950s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_urdf' for CMake module files
+[5.954s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_urdf' for CMake config files
+[5.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/myagv_ros2/build/myagv_ros2_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake --install /home/sara/myagv_ros2/build/myagv_ros2_urdf
+[5.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_ros2_urdf', 'cmake_prefix_path')
+[5.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/hook/cmake_prefix_path.ps1'
+[5.962s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/hook/cmake_prefix_path.dsv'
+[5.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/hook/cmake_prefix_path.sh'
+[5.975s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_urdf/bin'
+[5.976s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_urdf/lib/pkgconfig/myagv_ros2_urdf.pc'
+[5.977s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_urdf/lib/python3.10/site-packages'
+[5.978s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_urdf/bin'
+[5.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/package.ps1'
+[5.983s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/package.dsv'
+[5.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/package.sh'
+[5.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/package.bash'
+[5.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/package.zsh'
+[5.997s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/myagv_ros2/install/myagv_ros2_urdf/share/colcon-core/packages/myagv_ros2_urdf)
+[6.078s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_ros2_odom)
+[6.079s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odom' for CMake module files
+[6.084s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odom' for CMake config files
+[6.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_ros2_odom', 'cmake_prefix_path')
+[6.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/hook/cmake_prefix_path.ps1'
+[6.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/hook/cmake_prefix_path.dsv'
+[6.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/hook/cmake_prefix_path.sh'
+[6.100s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odom/lib'
+[6.101s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odom/bin'
+[6.101s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odom/lib/pkgconfig/myagv_ros2_odom.pc'
+[6.102s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odom/lib/python3.10/site-packages'
+[6.104s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odom/bin'
+[6.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/package.ps1'
+[6.109s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/package.dsv'
+[6.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/package.sh'
+[6.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/package.bash'
+[6.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_odom/share/myagv_ros2_odom/package.zsh'
+[6.124s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/myagv_ros2/install/myagv_ros2_odom/share/colcon-core/packages/myagv_ros2_odom)
+[6.129s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sara/myagv_ros2/src/myagv_ros2_ydlidar' with build type 'ament_python'
+[6.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_ros2_ydlidar', 'ament_prefix_path')
+[6.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/share/myagv_ros2_ydlidar/hook/ament_prefix_path.ps1'
+[6.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/share/myagv_ros2_ydlidar/hook/ament_prefix_path.dsv'
+[6.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/share/myagv_ros2_ydlidar/hook/ament_prefix_path.sh'
+[6.140s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.140s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.165s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_ros2_urdf)
+[6.166s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_urdf' for CMake module files
+[6.169s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_urdf' for CMake config files
+[6.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_ros2_urdf', 'cmake_prefix_path')
+[6.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/hook/cmake_prefix_path.ps1'
+[6.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/hook/cmake_prefix_path.dsv'
+[6.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/hook/cmake_prefix_path.sh'
+[6.181s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_urdf/bin'
+[6.182s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_urdf/lib/pkgconfig/myagv_ros2_urdf.pc'
+[6.183s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_urdf/lib/python3.10/site-packages'
+[6.184s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_urdf/bin'
+[6.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/package.ps1'
+[6.189s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/package.dsv'
+[6.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/package.sh'
+[6.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/package.bash'
+[6.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/package.zsh'
+[6.199s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/myagv_ros2/install/myagv_ros2_urdf/share/colcon-core/packages/myagv_ros2_urdf)
+[6.203s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sara/myagv_ros2/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[6.204s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sara/myagv_ros2/src/ydlidar_ros2_driver'
+[6.205s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.206s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.027s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sara/myagv_ros2/src/myagv_ros2_ydlidar'
+[8.028s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.028s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/myagv_ros2/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake --build /home/sara/myagv_ros2/build/ydlidar_ros2_driver -- -j4 -l4
+[8.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/myagv_ros2/src/myagv_ros2_odometry': PYTHONPATH=/home/sara/myagv_ros2/build/myagv_ros2_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sara/myagv_ros2/install/myagv_ros2_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_ros2_odometry build --build-base /home/sara/myagv_ros2/build/myagv_ros2_odometry/build install --record /home/sara/myagv_ros2/build/myagv_ros2_odometry/install.log --single-version-externally-managed install_data
+[8.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/myagv_ros2/src/myagv_ros2_debug': PYTHONPATH=/home/sara/myagv_ros2/build/myagv_ros2_debug/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sara/myagv_ros2/install/myagv_ros2_debug/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_ros2_debug build --build-base /home/sara/myagv_ros2/build/myagv_ros2_debug/build install --record /home/sara/myagv_ros2/build/myagv_ros2_debug/install.log --single-version-externally-managed install_data
+[8.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/myagv_ros2/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake --build /home/sara/myagv_ros2/build/ydlidar_ros2_driver -- -j4 -l4
+[8.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/myagv_ros2/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake --install /home/sara/myagv_ros2/build/ydlidar_ros2_driver
+[8.996s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[8.998s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/ydlidar_ros2_driver' for CMake module files
+[9.002s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/ydlidar_ros2_driver' for CMake config files
+[9.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/myagv_ros2/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake --install /home/sara/myagv_ros2/build/ydlidar_ros2_driver
+[9.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[9.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[9.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[9.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[9.021s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/lib'
+[9.022s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/bin'
+[9.023s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[9.025s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[9.026s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/bin'
+[9.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[9.033s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[9.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[9.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[9.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[9.045s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[9.216s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[9.217s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/ydlidar_ros2_driver' for CMake module files
+[9.221s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/ydlidar_ros2_driver' for CMake config files
+[9.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[9.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[9.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[9.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[9.238s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/lib'
+[9.238s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/bin'
+[9.239s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[9.240s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[9.241s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/bin'
+[9.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[9.247s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[9.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[9.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[9.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[9.260s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[10.179s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odometry' for CMake module files
+[10.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/myagv_ros2/src/myagv_ros2_odometry' returned '0': PYTHONPATH=/home/sara/myagv_ros2/build/myagv_ros2_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sara/myagv_ros2/install/myagv_ros2_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_ros2_odometry build --build-base /home/sara/myagv_ros2/build/myagv_ros2_odometry/build install --record /home/sara/myagv_ros2/build/myagv_ros2_odometry/install.log --single-version-externally-managed install_data
+[10.185s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odometry' for CMake config files
+[10.193s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odometry/lib'
+[10.194s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odometry/bin'
+[10.194s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odometry/lib/pkgconfig/myagv_ros2_odometry.pc'
+[10.196s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odometry/lib/python3.10/site-packages'
+[10.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_ros2_odometry', 'pythonpath')
+[10.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/myagv_ros2_odometry/share/myagv_ros2_odometry/hook/pythonpath.ps1'
+[10.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/myagv_ros2/install/myagv_ros2_odometry/share/myagv_ros2_odometry/hook/pythonpath.dsv'
+[10.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/myagv_ros2_odometry/share/myagv_ros2_odometry/hook/pythonpath.sh'
+[10.211s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_odometry/bin'
+[10.212s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_ros2_odometry)
+[10.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_odometry/share/myagv_ros2_odometry/package.ps1'
+[10.217s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/myagv_ros2/install/myagv_ros2_odometry/share/myagv_ros2_odometry/package.dsv'
+[10.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_odometry/share/myagv_ros2_odometry/package.sh'
+[10.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_odometry/share/myagv_ros2_odometry/package.bash'
+[10.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_odometry/share/myagv_ros2_odometry/package.zsh'
+[10.234s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/myagv_ros2/install/myagv_ros2_odometry/share/colcon-core/packages/myagv_ros2_odometry)
+[10.243s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_debug' for CMake module files
+[10.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/myagv_ros2/src/myagv_ros2_debug' returned '0': PYTHONPATH=/home/sara/myagv_ros2/build/myagv_ros2_debug/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sara/myagv_ros2/install/myagv_ros2_debug/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_ros2_debug build --build-base /home/sara/myagv_ros2/build/myagv_ros2_debug/build install --record /home/sara/myagv_ros2/build/myagv_ros2_debug/install.log --single-version-externally-managed install_data
+[10.252s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_debug' for CMake config files
+[10.258s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_debug/lib'
+[10.259s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_debug/bin'
+[10.260s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_debug/lib/pkgconfig/myagv_ros2_debug.pc'
+[10.262s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_debug/lib/python3.10/site-packages'
+[10.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_ros2_debug', 'pythonpath')
+[10.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/myagv_ros2_debug/share/myagv_ros2_debug/hook/pythonpath.ps1'
+[10.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/myagv_ros2/install/myagv_ros2_debug/share/myagv_ros2_debug/hook/pythonpath.dsv'
+[10.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/myagv_ros2_debug/share/myagv_ros2_debug/hook/pythonpath.sh'
+[10.278s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_debug/bin'
+[10.278s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_ros2_debug)
+[10.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_debug/share/myagv_ros2_debug/package.ps1'
+[10.285s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/myagv_ros2/install/myagv_ros2_debug/share/myagv_ros2_debug/package.dsv'
+[10.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_debug/share/myagv_ros2_debug/package.sh'
+[10.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_debug/share/myagv_ros2_debug/package.bash'
+[10.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_debug/share/myagv_ros2_debug/package.zsh'
+[10.300s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/myagv_ros2/install/myagv_ros2_debug/share/colcon-core/packages/myagv_ros2_debug)
+[10.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/myagv_ros2/src/myagv_ros2_ydlidar': PYTHONPATH=/home/sara/myagv_ros2/build/myagv_ros2_ydlidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_ros2_ydlidar build --build-base /home/sara/myagv_ros2/build/myagv_ros2_ydlidar/build install --record /home/sara/myagv_ros2/build/myagv_ros2_ydlidar/install.log --single-version-externally-managed install_data
+[11.743s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_ydlidar' for CMake module files
+[11.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/myagv_ros2/src/myagv_ros2_ydlidar' returned '0': PYTHONPATH=/home/sara/myagv_ros2/build/myagv_ros2_ydlidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_ros2_ydlidar build --build-base /home/sara/myagv_ros2/build/myagv_ros2_ydlidar/build install --record /home/sara/myagv_ros2/build/myagv_ros2_ydlidar/install.log --single-version-externally-managed install_data
+[11.746s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_ydlidar' for CMake config files
+[11.750s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib'
+[11.750s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/bin'
+[11.750s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/pkgconfig/myagv_ros2_ydlidar.pc'
+[11.751s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages'
+[11.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_ros2_ydlidar', 'pythonpath')
+[11.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/share/myagv_ros2_ydlidar/hook/pythonpath.ps1'
+[11.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/share/myagv_ros2_ydlidar/hook/pythonpath.dsv'
+[11.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/share/myagv_ros2_ydlidar/hook/pythonpath.sh'
+[11.760s] Level 1:colcon.colcon_core.environment:checking '/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/bin'
+[11.761s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_ros2_ydlidar)
+[11.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/share/myagv_ros2_ydlidar/package.ps1'
+[11.765s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/share/myagv_ros2_ydlidar/package.dsv'
+[11.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/share/myagv_ros2_ydlidar/package.sh'
+[11.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/share/myagv_ros2_ydlidar/package.bash'
+[11.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/share/myagv_ros2_ydlidar/package.zsh'
+[11.774s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/share/colcon-core/packages/myagv_ros2_ydlidar)
+[11.775s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.776s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.776s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.777s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.819s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.820s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.820s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.535s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.536s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sara/myagv_ros2/install/local_setup.ps1'
+[12.545s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sara/myagv_ros2/install/_local_setup_util_ps1.py'
+[12.556s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sara/myagv_ros2/install/setup.ps1'
+[12.562s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sara/myagv_ros2/install/local_setup.sh'
+[12.568s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sara/myagv_ros2/install/_local_setup_util_sh.py'
+[12.571s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sara/myagv_ros2/install/setup.sh'
+[12.578s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sara/myagv_ros2/install/local_setup.bash'
+[12.581s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sara/myagv_ros2/install/setup.bash'
+[12.588s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sara/myagv_ros2/install/local_setup.zsh'
+[12.592s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sara/myagv_ros2/install/setup.zsh'

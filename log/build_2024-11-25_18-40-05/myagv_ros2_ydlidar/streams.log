@@ -1,0 +1,21 @@
+[4.573s] Invoking command in '/home/sara/myagv_ros2/src/myagv_ros2_ydlidar': PYTHONPATH=/home/sara/myagv_ros2/build/myagv_ros2_ydlidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_ros2_ydlidar build --build-base /home/sara/myagv_ros2/build/myagv_ros2_ydlidar/build install --record /home/sara/myagv_ros2/build/myagv_ros2_ydlidar/install.log --single-version-externally-managed install_data
+[5.872s] running egg_info
+[5.875s] writing ../../build/myagv_ros2_ydlidar/myagv_ros2_ydlidar.egg-info/PKG-INFO
+[5.877s] writing dependency_links to ../../build/myagv_ros2_ydlidar/myagv_ros2_ydlidar.egg-info/dependency_links.txt
+[5.878s] writing entry points to ../../build/myagv_ros2_ydlidar/myagv_ros2_ydlidar.egg-info/entry_points.txt
+[5.879s] writing requirements to ../../build/myagv_ros2_ydlidar/myagv_ros2_ydlidar.egg-info/requires.txt
+[5.880s] writing top-level names to ../../build/myagv_ros2_ydlidar/myagv_ros2_ydlidar.egg-info/top_level.txt
+[5.888s] reading manifest file '../../build/myagv_ros2_ydlidar/myagv_ros2_ydlidar.egg-info/SOURCES.txt'
+[5.890s] adding license file 'LICENSE'
+[5.893s] writing manifest file '../../build/myagv_ros2_ydlidar/myagv_ros2_ydlidar.egg-info/SOURCES.txt'
+[5.893s] running build
+[5.894s] running build_py
+[5.896s] running install
+[5.897s] running install_lib
+[5.905s] running install_data
+[5.905s] running install_egg_info
+[5.913s] removing '/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages/myagv_ros2_ydlidar-0.0.0-py3.10.egg-info' (and everything under it)
+[5.915s] Copying ../../build/myagv_ros2_ydlidar/myagv_ros2_ydlidar.egg-info to /home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages/myagv_ros2_ydlidar-0.0.0-py3.10.egg-info
+[5.924s] running install_scripts
+[6.036s] writing list of installed files to '/home/sara/myagv_ros2/build/myagv_ros2_ydlidar/install.log'
+[6.228s] Invoked command in '/home/sara/myagv_ros2/src/myagv_ros2_ydlidar' returned '0': PYTHONPATH=/home/sara/myagv_ros2/build/myagv_ros2_ydlidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_ros2_ydlidar build --build-base /home/sara/myagv_ros2/build/myagv_ros2_ydlidar/build install --record /home/sara/myagv_ros2/build/myagv_ros2_ydlidar/install.log --single-version-externally-managed install_data

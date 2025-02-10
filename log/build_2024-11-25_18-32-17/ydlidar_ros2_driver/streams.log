@@ -1,0 +1,75 @@
+[2.489s] Invoking command in '/home/sara/myagv_ros2/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/opt/ros/humble /usr/bin/cmake /home/sara/myagv_ros2/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/sara/myagv_ros2/install/ydlidar_ros2_driver
+[2.583s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.350s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.439s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[3.719s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.737s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.782s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.851s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.961s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.200s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.213s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.431s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.748s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.935s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[6.053s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[6.146s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.683s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.736s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.737s] -- Configured cppcheck include dirs: /home/sara/myagv_ros2/src/ydlidar_ros2_driver/src
+[6.738s] -- Configured cppcheck exclude dirs and/or files: 
+[6.782s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.782s] -- Configured cpplint exclude dirs and/or files: 
+[6.790s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.803s] -- Added test 'lint_cmake' to check CMake code style
+[6.811s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.856s] -- Added test 'uncrustify' to check C / C++ code style
+[6.857s] -- Configured uncrustify additional arguments: 
+[6.864s] -- Added test 'xmllint' to check XML markup files
+[6.876s] -- Configuring done
+[6.990s] -- Generating done
+[7.004s] -- Build files have been written to: /home/sara/myagv_ros2/build/ydlidar_ros2_driver
+[7.045s] Invoked command in '/home/sara/myagv_ros2/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/opt/ros/humble /usr/bin/cmake /home/sara/myagv_ros2/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/sara/myagv_ros2/install/ydlidar_ros2_driver
+[7.056s] Invoking command in '/home/sara/myagv_ros2/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/opt/ros/humble /usr/bin/cmake --build /home/sara/myagv_ros2/build/ydlidar_ros2_driver -- -j4 -l4
+[7.233s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node[0m
+[7.243s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_client[0m
+[7.333s] [ 50%] Built target ydlidar_ros2_driver_node
+[7.340s] [100%] Built target ydlidar_ros2_driver_client
+[7.392s] Invoked command in '/home/sara/myagv_ros2/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/opt/ros/humble /usr/bin/cmake --build /home/sara/myagv_ros2/build/ydlidar_ros2_driver -- -j4 -l4
+[7.618s] Invoking command in '/home/sara/myagv_ros2/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/opt/ros/humble /usr/bin/cmake --install /home/sara/myagv_ros2/build/ydlidar_ros2_driver
+[7.646s] -- Install configuration: ""
+[7.648s] -- Execute custom install script
+[7.650s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[7.651s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[7.653s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[7.653s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[7.654s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[7.656s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[7.657s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[7.658s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[7.659s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml
+[7.660s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml
+[7.660s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[7.661s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml
+[7.662s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[7.663s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[7.664s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[7.665s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[7.666s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[7.668s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[7.669s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[7.670s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[7.671s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[7.672s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[7.673s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[7.675s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[7.676s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[7.677s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[7.678s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[7.679s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[7.679s] -- Symlinking: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[7.715s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[7.715s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[7.716s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[7.717s] -- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[7.728s] Invoked command in '/home/sara/myagv_ros2/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/opt/ros/humble /usr/bin/cmake --install /home/sara/myagv_ros2/build/ydlidar_ros2_driver

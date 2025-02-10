@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.002647] (myagv_ros2_ydlidar) JobQueued: {'identifier': 'myagv_ros2_ydlidar', 'dependencies': OrderedDict()}
+[0.003528] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.004192] (myagv_ros2_ydlidar) JobStarted: {'identifier': 'myagv_ros2_ydlidar'}
+[0.060171] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.098949] (-) TimerEvent: {}
+[0.200255] (-) TimerEvent: {}
+[0.300928] (-) TimerEvent: {}
+[0.401756] (-) TimerEvent: {}
+[0.502536] (-) TimerEvent: {}
+[0.603291] (-) TimerEvent: {}
+[0.704800] (-) TimerEvent: {}
+[0.805860] (-) TimerEvent: {}
+[0.906643] (-) TimerEvent: {}
+[1.007305] (-) TimerEvent: {}
+[1.107926] (-) TimerEvent: {}
+[1.208611] (-) TimerEvent: {}
+[1.309451] (-) TimerEvent: {}
+[1.410846] (-) TimerEvent: {}
+[1.511756] (-) TimerEvent: {}
+[1.612634] (-) TimerEvent: {}
+[1.673894] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[1.677419] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[1.680042] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sara/myagv_ros2/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/sara/myagv_ros2/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sara'), ('SSH_CLIENT', '192.168.8.108 36038 22'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sara'), ('OLDPWD', '/home/sara/myagv_ros2/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('LC_MONETARY', 'es_CO.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sara/myagv_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sara'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/home/sara/myagv_ros2/install/ydlidar_ros2_driver:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('PWD', '/home/sara/myagv_ros2/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.108 36038 192.168.8.119 22'), ('XDG_DATA_DIRS', '/home/sara/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sara/myagv_ros2/build/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sara/myagv_ros2/install/ydlidar_ros2_driver:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/opt/ros/humble')]), 'shell': False}
+[1.712787] (-) TimerEvent: {}
+[1.814005] (-) TimerEvent: {}
+[1.914735] (-) TimerEvent: {}
+[2.015589] (-) TimerEvent: {}
+[2.047613] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node\x1b[0m\n'}
+[2.067893] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_client\x1b[0m\n'}
+[2.115792] (-) TimerEvent: {}
+[2.217366] (-) TimerEvent: {}
+[2.281250] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] Built target ydlidar_ros2_driver_node\n'}
+[2.293879] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_client\n'}
+[2.317605] (-) TimerEvent: {}
+[2.350699] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[2.417739] (-) TimerEvent: {}
+[2.519095] (-) TimerEvent: {}
+[2.523155] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[2.573386] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sara/myagv_ros2/build/ydlidar_ros2_driver'], 'cwd': '/home/sara/myagv_ros2/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sara'), ('SSH_CLIENT', '192.168.8.108 36038 22'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sara'), ('OLDPWD', '/home/sara/myagv_ros2/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('LC_MONETARY', 'es_CO.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sara/myagv_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sara'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/home/sara/myagv_ros2/install/ydlidar_ros2_driver:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('PWD', '/home/sara/myagv_ros2/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.108 36038 192.168.8.119 22'), ('XDG_DATA_DIRS', '/home/sara/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sara/myagv_ros2/build/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sara/myagv_ros2/install/ydlidar_ros2_driver:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/opt/ros/humble')]), 'shell': False}
+[2.612898] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.616836] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.623372] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[2.624488] (-) TimerEvent: {}
+[2.626309] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[2.626960] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[2.627879] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[2.628657] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[2.637928] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml\n'}
+[2.638544] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml\n'}
+[2.639505] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml\n'}
+[2.640383] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml\n'}
+[2.640835] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml\n'}
+[2.641415] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml\n'}
+[2.641848] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml\n'}
+[2.642320] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml\n'}
+[2.642908] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml\n'}
+[2.643683] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml\n'}
+[2.644809] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[2.646486] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[2.648442] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[2.656756] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[2.658325] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[2.658949] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[2.659806] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[2.661149] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[2.662340] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[2.663440] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[2.664509] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[2.665749] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[2.666934] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[2.668297] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[2.714434] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[2.715909] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[2.717999] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[2.723079] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sara/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[2.724623] (-) TimerEvent: {}
+[2.729660] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[2.825318] (-) TimerEvent: {}
+[2.926317] (-) TimerEvent: {}
+[3.027364] (-) TimerEvent: {}
+[3.044535] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[3.127517] (-) TimerEvent: {}
+[3.228145] (-) TimerEvent: {}
+[3.329427] (-) TimerEvent: {}
+[3.430434] (-) TimerEvent: {}
+[3.531325] (-) TimerEvent: {}
+[3.632047] (-) TimerEvent: {}
+[3.732670] (-) TimerEvent: {}
+[3.833338] (-) TimerEvent: {}
+[3.934422] (-) TimerEvent: {}
+[4.036029] (-) TimerEvent: {}
+[4.135380] (myagv_ros2_ydlidar) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/sara/myagv_ros2/build/myagv_ros2_ydlidar/build', '--no-deps', 'symlink_data'], 'cwd': '/home/sara/myagv_ros2/build/myagv_ros2_ydlidar', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sara', 'SSH_CLIENT': '192.168.8.108 36038 22', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/sara', 'OLDPWD': '/home/sara/myagv_ros2/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'LC_MONETARY': 'es_CO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'UBUNTU_MENUPROXY': '1', 'COLCON_PREFIX_PATH': '/home/sara/myagv_ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sara', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'es_CO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'es_CO.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '69', 'AMENT_PREFIX_PATH': '/home/sara/myagv_ros2/install/ydlidar_ros2_driver:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'PWD': '/home/sara/myagv_ros2/build/myagv_ros2_ydlidar', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.8.108 36038 192.168.8.119 22', 'XDG_DATA_DIRS': '/home/sara/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sara/myagv_ros2/build/myagv_ros2_ydlidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages:/home/sara/myagv_ros2/build/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/sara/myagv_ros2/install/ydlidar_ros2_driver'}, 'shell': False}
+[4.145051] (-) TimerEvent: {}
+[4.246502] (-) TimerEvent: {}
+[4.347176] (-) TimerEvent: {}
+[4.448090] (-) TimerEvent: {}
+[4.548954] (-) TimerEvent: {}
+[4.649696] (-) TimerEvent: {}
+[4.750313] (-) TimerEvent: {}
+[4.850928] (-) TimerEvent: {}
+[4.951673] (-) TimerEvent: {}
+[5.052324] (-) TimerEvent: {}
+[5.153252] (-) TimerEvent: {}
+[5.253934] (-) TimerEvent: {}
+[5.354715] (-) TimerEvent: {}
+[5.455359] (-) TimerEvent: {}
+[5.555975] (-) TimerEvent: {}
+[5.623314] (myagv_ros2_ydlidar) StdoutLine: {'line': b'running develop\n'}
+[5.628634] (myagv_ros2_ydlidar) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.630330] (myagv_ros2_ydlidar) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.656198] (-) TimerEvent: {}
+[5.757205] (-) TimerEvent: {}
+[5.858634] (-) TimerEvent: {}
+[5.959503] (-) TimerEvent: {}
+[6.060163] (-) TimerEvent: {}
+[6.160766] (-) TimerEvent: {}
+[6.261403] (-) TimerEvent: {}
+[6.362023] (-) TimerEvent: {}
+[6.462870] (-) TimerEvent: {}
+[6.563916] (-) TimerEvent: {}
+[6.664677] (-) TimerEvent: {}
+[6.723118] (myagv_ros2_ydlidar) StdoutLine: {'line': b'running egg_info\n'}
+[6.726308] (myagv_ros2_ydlidar) StdoutLine: {'line': b'writing myagv_ros2_ydlidar.egg-info/PKG-INFO\n'}
+[6.728211] (myagv_ros2_ydlidar) StdoutLine: {'line': b'writing dependency_links to myagv_ros2_ydlidar.egg-info/dependency_links.txt\n'}
+[6.729398] (myagv_ros2_ydlidar) StdoutLine: {'line': b'writing entry points to myagv_ros2_ydlidar.egg-info/entry_points.txt\n'}
+[6.730855] (myagv_ros2_ydlidar) StdoutLine: {'line': b'writing requirements to myagv_ros2_ydlidar.egg-info/requires.txt\n'}
+[6.731685] (myagv_ros2_ydlidar) StdoutLine: {'line': b'writing top-level names to myagv_ros2_ydlidar.egg-info/top_level.txt\n'}
+[6.740462] (myagv_ros2_ydlidar) StdoutLine: {'line': b"reading manifest file 'myagv_ros2_ydlidar.egg-info/SOURCES.txt'\n"}
+[6.745367] (myagv_ros2_ydlidar) StdoutLine: {'line': b"writing manifest file 'myagv_ros2_ydlidar.egg-info/SOURCES.txt'\n"}
+[6.754563] (myagv_ros2_ydlidar) StdoutLine: {'line': b'running build_ext\n'}
+[6.755783] (myagv_ros2_ydlidar) StdoutLine: {'line': b'Creating /home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages/myagv-ros2-ydlidar.egg-link (link to .)\n'}
+[6.761132] (myagv_ros2_ydlidar) StdoutLine: {'line': b'\n'}
+[6.761789] (myagv_ros2_ydlidar) StdoutLine: {'line': b'Installed /home/sara/myagv_ros2/build/myagv_ros2_ydlidar\n'}
+[6.762119] (myagv_ros2_ydlidar) StdoutLine: {'line': b'running symlink_data\n'}
+[6.765128] (-) TimerEvent: {}
+[6.866313] (-) TimerEvent: {}
+[6.933385] (myagv_ros2_ydlidar) CommandEnded: {'returncode': 0}
+[6.967385] (-) TimerEvent: {}
+[6.986790] (myagv_ros2_ydlidar) JobEnded: {'identifier': 'myagv_ros2_ydlidar', 'rc': 0}
+[6.989701] (-) EventReactorShutdown: {}

@@ -1,0 +1,42 @@
+[1.309s] Invoking command in '/home/sara/myagv_ros2/build/myagv_ros2_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake /home/sara/myagv_ros2/src/myagv_ros2_urdf -DCMAKE_INSTALL_PREFIX=/home/sara/myagv_ros2/install/myagv_ros2_urdf
+[2.640s] -- The C compiler identification is GNU 11.4.0
+[3.217s] -- The CXX compiler identification is GNU 11.4.0
+[3.288s] -- Detecting C compiler ABI info
+[3.750s] -- Detecting C compiler ABI info - done
+[3.786s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.791s] -- Detecting C compile features
+[3.795s] -- Detecting C compile features - done
+[3.814s] -- Detecting CXX compiler ABI info
+[4.299s] -- Detecting CXX compiler ABI info - done
+[4.343s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.346s] -- Detecting CXX compile features
+[4.348s] -- Detecting CXX compile features - done
+[4.395s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.518s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.295s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.914s] -- Added test 'lint_cmake' to check CMake code style
+[6.933s] -- Added test 'xmllint' to check XML markup files
+[6.952s] -- Configuring done
+[7.014s] -- Generating done
+[7.018s] -- Build files have been written to: /home/sara/myagv_ros2/build/myagv_ros2_urdf
+[7.063s] Invoked command in '/home/sara/myagv_ros2/build/myagv_ros2_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake /home/sara/myagv_ros2/src/myagv_ros2_urdf -DCMAKE_INSTALL_PREFIX=/home/sara/myagv_ros2/install/myagv_ros2_urdf
+[7.068s] Invoking command in '/home/sara/myagv_ros2/build/myagv_ros2_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake --build /home/sara/myagv_ros2/build/myagv_ros2_urdf -- -j4 -l4
+[7.258s] Invoked command in '/home/sara/myagv_ros2/build/myagv_ros2_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake --build /home/sara/myagv_ros2/build/myagv_ros2_urdf -- -j4 -l4
+[7.367s] Invoking command in '/home/sara/myagv_ros2/build/myagv_ros2_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake --install /home/sara/myagv_ros2/build/myagv_ros2_urdf
+[7.397s] -- Install configuration: ""
+[7.398s] -- Installing: /home/sara/myagv_ros2/install/myagv_ros2_urdf/share/ament_index/resource_index/package_run_dependencies/myagv_ros2_urdf
+[7.399s] -- Installing: /home/sara/myagv_ros2/install/myagv_ros2_urdf/share/ament_index/resource_index/parent_prefix_path/myagv_ros2_urdf
+[7.401s] -- Installing: /home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/environment/ament_prefix_path.sh
+[7.402s] -- Installing: /home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/environment/ament_prefix_path.dsv
+[7.404s] -- Installing: /home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/environment/path.sh
+[7.405s] -- Installing: /home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/environment/path.dsv
+[7.406s] -- Installing: /home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/local_setup.bash
+[7.407s] -- Installing: /home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/local_setup.sh
+[7.408s] -- Installing: /home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/local_setup.zsh
+[7.410s] -- Installing: /home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/local_setup.dsv
+[7.411s] -- Installing: /home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/package.dsv
+[7.412s] -- Installing: /home/sara/myagv_ros2/install/myagv_ros2_urdf/share/ament_index/resource_index/packages/myagv_ros2_urdf
+[7.413s] -- Installing: /home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/cmake/myagv_ros2_urdfConfig.cmake
+[7.414s] -- Installing: /home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/cmake/myagv_ros2_urdfConfig-version.cmake
+[7.415s] -- Installing: /home/sara/myagv_ros2/install/myagv_ros2_urdf/share/myagv_ros2_urdf/package.xml
+[7.423s] Invoked command in '/home/sara/myagv_ros2/build/myagv_ros2_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake --install /home/sara/myagv_ros2/build/myagv_ros2_urdf

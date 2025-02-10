@@ -1,0 +1,30 @@
+[5.087s] Invoking command in '/home/sara/myagv_ros2/src/myagv_ros2_debug': PYTHONPATH=/home/sara/myagv_ros2/build/myagv_ros2_debug/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sara/myagv_ros2/install/myagv_ros2_debug/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_ros2_debug build --build-base /home/sara/myagv_ros2/build/myagv_ros2_debug/build install --record /home/sara/myagv_ros2/build/myagv_ros2_debug/install.log --single-version-externally-managed install_data
+[6.692s] running egg_info
+[6.695s] writing ../../build/myagv_ros2_debug/myagv_ros2_debug.egg-info/PKG-INFO
+[6.697s] writing dependency_links to ../../build/myagv_ros2_debug/myagv_ros2_debug.egg-info/dependency_links.txt
+[6.700s] writing entry points to ../../build/myagv_ros2_debug/myagv_ros2_debug.egg-info/entry_points.txt
+[6.700s] writing requirements to ../../build/myagv_ros2_debug/myagv_ros2_debug.egg-info/requires.txt
+[6.702s] writing top-level names to ../../build/myagv_ros2_debug/myagv_ros2_debug.egg-info/top_level.txt
+[6.709s] reading manifest file '../../build/myagv_ros2_debug/myagv_ros2_debug.egg-info/SOURCES.txt'
+[6.711s] adding license file 'LICENSE'
+[6.714s] writing manifest file '../../build/myagv_ros2_debug/myagv_ros2_debug.egg-info/SOURCES.txt'
+[6.715s] running build
+[6.717s] running build_py
+[6.720s] copying myagv_ros2_debug/encoder_test.py -> /home/sara/myagv_ros2/build/myagv_ros2_debug/build/lib/myagv_ros2_debug
+[6.720s] running install
+[6.723s] running install_lib
+[6.726s] copying /home/sara/myagv_ros2/build/myagv_ros2_debug/build/lib/myagv_ros2_debug/encoder_test.py -> /home/sara/myagv_ros2/install/myagv_ros2_debug/lib/python3.10/site-packages/myagv_ros2_debug
+[6.730s] byte-compiling /home/sara/myagv_ros2/install/myagv_ros2_debug/lib/python3.10/site-packages/myagv_ros2_debug/encoder_test.py to encoder_test.cpython-310.pyc
+[6.740s]   File "/home/sara/myagv_ros2/install/myagv_ros2_debug/lib/python3.10/site-packages/myagv_ros2_debug/encoder_test.py", line 470
+[6.741s]     self.get_logger().error(f'Error in timer callback: {str(e)})
+[6.742s]                             ^
+[6.742s] SyntaxError: unterminated string literal (detected at line 470)
+[6.743s] 
+[6.744s] running install_data
+[6.745s] running install_egg_info
+[6.750s] removing '/home/sara/myagv_ros2/install/myagv_ros2_debug/lib/python3.10/site-packages/myagv_ros2_debug-0.0.0-py3.10.egg-info' (and everything under it)
+[6.753s] Copying ../../build/myagv_ros2_debug/myagv_ros2_debug.egg-info to /home/sara/myagv_ros2/install/myagv_ros2_debug/lib/python3.10/site-packages/myagv_ros2_debug-0.0.0-py3.10.egg-info
+[6.761s] running install_scripts
+[6.873s] Installing myagv_encoder script to /home/sara/myagv_ros2/install/myagv_ros2_debug/lib/myagv_ros2_debug
+[6.877s] writing list of installed files to '/home/sara/myagv_ros2/build/myagv_ros2_debug/install.log'
+[7.122s] Invoked command in '/home/sara/myagv_ros2/src/myagv_ros2_debug' returned '0': PYTHONPATH=/home/sara/myagv_ros2/build/myagv_ros2_debug/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sara/myagv_ros2/install/myagv_ros2_debug/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_ros2_debug build --build-base /home/sara/myagv_ros2/build/myagv_ros2_debug/build install --record /home/sara/myagv_ros2/build/myagv_ros2_debug/install.log --single-version-externally-managed install_data

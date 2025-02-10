@@ -1,0 +1,5 @@
+  File "/home/sara/myagv_ros2/install/myagv_ros2_odometry/lib/python3.10/site-packages/myagv_ros2_odometry/myagv_bringup.py", line 685
+    ) self.smooth_velocity(self.vtheta_window, vtheta)
+      ^^^^
+SyntaxError: invalid syntax
+

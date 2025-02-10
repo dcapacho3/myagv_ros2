@@ -1,0 +1,5 @@
+  File "/home/sara/myagv_ros2/install/myagv_ros2_debug/lib/python3.10/site-packages/myagv_ros2_debug/encoder_test.py", line 470
+    self.get_logger().error(f'Error in timer callback: {str(e)})
+                            ^
+SyntaxError: unterminated string literal (detected at line 470)
+

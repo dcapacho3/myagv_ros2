@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing myagv_ros2_ydlidar.egg-info/PKG-INFO
+writing dependency_links to myagv_ros2_ydlidar.egg-info/dependency_links.txt
+writing entry points to myagv_ros2_ydlidar.egg-info/entry_points.txt
+writing requirements to myagv_ros2_ydlidar.egg-info/requires.txt
+writing top-level names to myagv_ros2_ydlidar.egg-info/top_level.txt
+reading manifest file 'myagv_ros2_ydlidar.egg-info/SOURCES.txt'
+writing manifest file 'myagv_ros2_ydlidar.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages/myagv-ros2-ydlidar.egg-link (link to .)
+
+Installed /home/sara/myagv_ros2/build/myagv_ros2_ydlidar
+running symlink_data

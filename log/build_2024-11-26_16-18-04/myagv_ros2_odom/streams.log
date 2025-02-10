@@ -1,0 +1,59 @@
+[0.123s] Invoking command in '/home/sara/myagv_ros2/build/myagv_ros2_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake /home/sara/myagv_ros2/src/myagv_ros2_odom -DCMAKE_INSTALL_PREFIX=/home/sara/myagv_ros2/install/myagv_ros2_odom
+[1.694s] -- The C compiler identification is GNU 11.4.0
+[1.694s] -- The CXX compiler identification is GNU 11.4.0
+[1.695s] -- Detecting C compiler ABI info
+[1.695s] -- Detecting C compiler ABI info - done
+[1.696s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.696s] -- Detecting C compile features
+[1.697s] -- Detecting C compile features - done
+[1.698s] -- Detecting CXX compiler ABI info
+[1.698s] -- Detecting CXX compiler ABI info - done
+[1.699s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.700s] -- Detecting CXX compile features
+[1.700s] -- Detecting CXX compile features - done
+[1.701s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.369s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.004s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[3.486s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.558s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.664s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.779s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.937s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.392s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.422s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.196s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.556s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.062s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.163s] -- Looking for pthread.h
+[6.557s] -- Looking for pthread.h - found
+[6.560s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.958s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.962s] -- Found Threads: TRUE  
+[7.464s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[7.553s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[7.657s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.765s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[8.658s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[8.823s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.283s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.283s] -- Configured cppcheck include dirs: /home/sara/myagv_ros2/src/myagv_ros2_odom/include;$<BUILD_INTERFACE:/home/sara/myagv_ros2/src/myagv_ros2_odom/include>
+[9.284s] -- Configured cppcheck exclude dirs and/or files: 
+[9.288s] -- Added test 'lint_cmake' to check CMake code style
+[9.296s] -- Added test 'uncrustify' to check C / C++ code style
+[9.297s] -- Configured uncrustify additional arguments: 
+[9.299s] -- Added test 'xmllint' to check XML markup files
+[9.307s] -- Configuring done
+[9.386s] -- Generating done
+[9.394s] -- Build files have been written to: /home/sara/myagv_ros2/build/myagv_ros2_odom
+[9.442s] Invoked command in '/home/sara/myagv_ros2/build/myagv_ros2_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake /home/sara/myagv_ros2/src/myagv_ros2_odom -DCMAKE_INSTALL_PREFIX=/home/sara/myagv_ros2/install/myagv_ros2_odom
+[9.450s] Invoking command in '/home/sara/myagv_ros2/build/myagv_ros2_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake --build /home/sara/myagv_ros2/build/myagv_ros2_odom -- -j4 -l4
+[9.670s] [ 50%] [32mBuilding CXX object CMakeFiles/myagv_odom.dir/src/myagv_odom.cpp.o[0m
+[65.910s] [100%] [32m[1mLinking CXX executable myagv_odom[0m
+[68.969s] /usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':
+[68.970s] (.text+0x1c): undefined reference to `main'
+[68.971s] /usr/bin/ld: (.text+0x20): undefined reference to `main'
+[69.224s] collect2: error: ld returned 1 exit status
+[69.231s] gmake[2]: *** [CMakeFiles/myagv_odom.dir/build.make:214: myagv_odom] Error 1
+[69.234s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/myagv_odom.dir/all] Error 2
+[69.237s] gmake: *** [Makefile:146: all] Error 2
+[69.314s] Invoked command in '/home/sara/myagv_ros2/build/myagv_ros2_odom' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/myagv_ros2/install/myagv_ros2_ydlidar:/home/sara/myagv_ros2/install/myagv_ros2_odometry:/opt/ros/humble /usr/bin/cmake --build /home/sara/myagv_ros2/build/myagv_ros2_odom -- -j4 -l4

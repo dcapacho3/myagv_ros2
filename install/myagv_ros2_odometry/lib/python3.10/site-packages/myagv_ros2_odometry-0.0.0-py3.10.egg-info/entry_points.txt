@@ -1,0 +1,7 @@
+[console_scripts]
+myagv_bringup = myagv_ros2_odometry.myagv_bringup:main
+myagv_encoder = myagv_ros2_odometry.myagvencoderpublish:main
+myagv_imu = myagv_ros2_odometry.myagvimupublish:main
+myagv_odom = myagv_ros2_odometry.myagvodom:main
+myagv_odometry = myagv_ros2_odometry.myagvodomfix:main
+

@@ -1,0 +1,35 @@
+running develop
+Removing /home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages/myagv-ros2-ydlidar.egg-link (link to .)
+running egg_info
+writing ../../build/myagv_ros2_ydlidar/myagv_ros2_ydlidar.egg-info/PKG-INFO
+writing dependency_links to ../../build/myagv_ros2_ydlidar/myagv_ros2_ydlidar.egg-info/dependency_links.txt
+writing entry points to ../../build/myagv_ros2_ydlidar/myagv_ros2_ydlidar.egg-info/entry_points.txt
+writing requirements to ../../build/myagv_ros2_ydlidar/myagv_ros2_ydlidar.egg-info/requires.txt
+writing top-level names to ../../build/myagv_ros2_ydlidar/myagv_ros2_ydlidar.egg-info/top_level.txt
+reading manifest file '../../build/myagv_ros2_ydlidar/myagv_ros2_ydlidar.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/myagv_ros2_ydlidar/myagv_ros2_ydlidar.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sara/myagv_ros2/build/myagv_ros2_ydlidar/build
+creating /home/sara/myagv_ros2/build/myagv_ros2_ydlidar/build/lib
+creating /home/sara/myagv_ros2/build/myagv_ros2_ydlidar/build/lib/myagv_ros2_ydlidar
+copying myagv_ros2_ydlidar/close_ydlidar.py -> /home/sara/myagv_ros2/build/myagv_ros2_ydlidar/build/lib/myagv_ros2_ydlidar
+copying myagv_ros2_ydlidar/__init__.py -> /home/sara/myagv_ros2/build/myagv_ros2_ydlidar/build/lib/myagv_ros2_ydlidar
+copying myagv_ros2_ydlidar/start_ydlidar.py -> /home/sara/myagv_ros2/build/myagv_ros2_ydlidar/build/lib/myagv_ros2_ydlidar
+running install
+running install_lib
+creating /home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages/myagv_ros2_ydlidar
+copying /home/sara/myagv_ros2/build/myagv_ros2_ydlidar/build/lib/myagv_ros2_ydlidar/close_ydlidar.py -> /home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages/myagv_ros2_ydlidar
+copying /home/sara/myagv_ros2/build/myagv_ros2_ydlidar/build/lib/myagv_ros2_ydlidar/__init__.py -> /home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages/myagv_ros2_ydlidar
+copying /home/sara/myagv_ros2/build/myagv_ros2_ydlidar/build/lib/myagv_ros2_ydlidar/start_ydlidar.py -> /home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages/myagv_ros2_ydlidar
+byte-compiling /home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages/myagv_ros2_ydlidar/close_ydlidar.py to close_ydlidar.cpython-310.pyc
+byte-compiling /home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages/myagv_ros2_ydlidar/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages/myagv_ros2_ydlidar/start_ydlidar.py to start_ydlidar.cpython-310.pyc
+running install_data
+copying resource/myagv_ros2_ydlidar -> /home/sara/myagv_ros2/install/myagv_ros2_ydlidar/share/ament_index/resource_index/packages
+copying package.xml -> /home/sara/myagv_ros2/install/myagv_ros2_ydlidar/share/myagv_ros2_ydlidar
+running install_egg_info
+Copying ../../build/myagv_ros2_ydlidar/myagv_ros2_ydlidar.egg-info to /home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages/myagv_ros2_ydlidar-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/sara/myagv_ros2/build/myagv_ros2_ydlidar/install.log'

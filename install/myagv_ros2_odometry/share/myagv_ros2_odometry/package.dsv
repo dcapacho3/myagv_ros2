@@ -1,0 +1,6 @@
+source;share/myagv_ros2_odometry/hook/pythonpath.ps1
+source;share/myagv_ros2_odometry/hook/pythonpath.dsv
+source;share/myagv_ros2_odometry/hook/pythonpath.sh
+source;share/myagv_ros2_odometry/hook/ament_prefix_path.ps1
+source;share/myagv_ros2_odometry/hook/ament_prefix_path.dsv
+source;share/myagv_ros2_odometry/hook/ament_prefix_path.sh

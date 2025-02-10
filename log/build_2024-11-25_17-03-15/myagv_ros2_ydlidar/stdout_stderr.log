@@ -1,0 +1,23 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating myagv_ros2_ydlidar.egg-info
+writing myagv_ros2_ydlidar.egg-info/PKG-INFO
+writing dependency_links to myagv_ros2_ydlidar.egg-info/dependency_links.txt
+writing entry points to myagv_ros2_ydlidar.egg-info/entry_points.txt
+writing requirements to myagv_ros2_ydlidar.egg-info/requires.txt
+writing top-level names to myagv_ros2_ydlidar.egg-info/top_level.txt
+writing manifest file 'myagv_ros2_ydlidar.egg-info/SOURCES.txt'
+reading manifest file 'myagv_ros2_ydlidar.egg-info/SOURCES.txt'
+writing manifest file 'myagv_ros2_ydlidar.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sara/myagv_ros2/install/myagv_ros2_ydlidar/lib/python3.10/site-packages/myagv-ros2-ydlidar.egg-link (link to .)
+
+Installed /home/sara/myagv_ros2/build/myagv_ros2_ydlidar
+running symlink_data
+creating /home/sara/myagv_ros2/install/myagv_ros2_ydlidar/share/ament_index
+creating /home/sara/myagv_ros2/install/myagv_ros2_ydlidar/share/ament_index/resource_index
+creating /home/sara/myagv_ros2/install/myagv_ros2_ydlidar/share/ament_index/resource_index/packages
+symbolically linking /home/sara/myagv_ros2/build/myagv_ros2_ydlidar/resource/myagv_ros2_ydlidar -> /home/sara/myagv_ros2/install/myagv_ros2_ydlidar/share/ament_index/resource_index/packages
+symbolically linking /home/sara/myagv_ros2/build/myagv_ros2_ydlidar/package.xml -> /home/sara/myagv_ros2/install/myagv_ros2_ydlidar/share/myagv_ros2_ydlidar

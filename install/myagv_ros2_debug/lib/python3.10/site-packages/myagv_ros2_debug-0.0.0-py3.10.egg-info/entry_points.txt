@@ -1,0 +1,3 @@
+[console_scripts]
+myagv_encoder = myagv_ros2_debug.encoder_test:main
+
